@@ -1,0 +1,205 @@
+/* Universal */
+html {
+    font-family: 'Mulish', sans-serif;
+}
+
+body {
+    background-color: rgb(234, 220, 202);
+    color: rgb(23, 30, 46);
+    min-height: 100vh;
+}
+
+main {
+    position: relative;
+    top: 2rem;
+    bottom: 2rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+/* Header */
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 3rem;
+    background-color: rgb(23, 30, 46);
+    color: rgb(234, 220, 202);
+    z-index: 1;
+}
+
+.navbar nav {
+    display: block;
+    text-align: center;
+    float: right;
+    padding: 1rem 3rem;
+    font-size: 20px;
+}
+
+.navbar nav span {
+    margin-right: 2rem;
+}
+
+.navbar nav span:hover {
+    color: gold;
+}
+
+.navbar a {
+    color: rgb(234, 220, 202);
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: gold;
+}
+
+.title {
+    position: relative;
+    top: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 4rem; 
+}
+
+/* Main */
+
+
+/* About Me */
+.about-me-container {
+   display: inline-flex;
+   justify-content: space-between;
+   align-content: flex-start;
+   width: 100%;
+   flex-wrap: wrap-reverse;
+}
+
+.about-me-text {
+    width: 50%;
+    margin-left: 2rem;
+}
+
+.about-me-container img {
+    width: 400px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+/* Projects */
+.projects-container {
+    display: inline-flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    width: 100%;
+}
+
+.projects-text {
+    width: 50%;
+    margin-left: 2rem;
+}
+
+
+/* Skills */
+.skills-container {
+    display: inline-flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.skills-text {
+    width: 50%;
+    margin-left: 2rem;
+}
+
+.skills-logos {
+    font-size: 3rem;
+    margin: auto;
+    padding: 2rem;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skills-logos i {
+    padding: 3rem;
+}
+
+/* Footer */
+.footer-container {
+    margin-top: auto;
+    overflow: hidden;
+    padding: 0;
+    padding-top: 1rem;
+    width: 100%;
+    height: 3rem;
+    background-color: rgb(23, 30, 46);
+    color: white;
+    display: inline-block;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+footer a {
+    color: white;
+    font-size: 2.5rem;
+    padding: 2rem 3rem;
+}
+
+footer .fa-linkedin:hover {
+    color: rgb(0, 119, 181);
+}
+
+footer .fa-github-square:hover {
+    color: rgb(234, 220, 202);
+}
+
+footer .fa-envelope-square:hover {
+    color: rgb(234, 220, 202);
+}
+
+/* Contact Page */
+.contact-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin-bottom: 4rem;
+}
+
+.personal-container {
+    width: 100%;
+    text-align: center;
+
+}
+
+.social-container {
+    width: 100%;
+    text-align: center;
+}
+
+.form-container {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 2;
+}
+
+.contact-container a {
+    color: rgb(23, 30, 46);
+}
+
+.fa-map-marked-alt {
+    font-family: 'Mulish', sans-serif;
+}
